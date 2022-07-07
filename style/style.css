@@ -1,0 +1,157 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+
+}
+.tudo{
+    padding: 15px;
+    margin-left: 4%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.descricao{
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+
+.descricao p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#informacao{
+    margin-bottom: 20px;
+    
+}
+
+#informacao h1{
+    margin-bottom: 15px;
+}
+
+#informacao span{
+    font-size: 20px;
+}
+
+/* tratamento das imagens */
+.exemplo #imagem-fora{
+    width: 40%; 
+    height: 410px; 
+    margin-right: 10px;
+    border-radius: 15px 0 0 15px;
+}
+
+.imagens .imagem-dentro {
+    width: 40%; 
+    height: 200px;
+}
+
+.imagens .mr{
+    margin-right: 10px;
+}
+
+.imagens .mt{
+    margin-top: 10px;
+}
+
+.imagens .rb{
+    border-radius: 0 0 15px 0;
+}
+
+.imagens .rt{
+    border-radius: 0 15px 0 0;
+}
+
+/* flex-box imagens imovel */
+.exemplo{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.imagens{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:stretch;
+    align-content: flex-start;
+
+}
+
+/* ultimo container */
+
+.ultimo{
+    display: flex;
+}
+
+
+.ultimo h2{
+    margin-bottom: 10px;
+   
+}
+
+.icones h2{
+    margin-left: 10px;
+}
+
+.icones{
+    
+    width: 290px;
+    height: 245px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.icones .fa-solid{
+    margin-right: 36px;
+}
+
+.preco{
+    margin-left: 28%;
+    border-radius: 7px;
+    width: 566px;
+    height: 210px;
+    border: 2px solid black;
+    padding: 70px;
+    text-align: center;
+    background: rgb(34,241,244);
+    background: linear-gradient(328deg, rgba(34,241,244,1) 0%, rgba(242,209,16,1) 100%);
+}
+
+.preco .btn{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 7px;
+    padding: 15px;
+    border: 1px solid black;
+    transition: .9s;
+    background: rgb(34,241,244);
+    background: linear-gradient(328deg, rgba(34,241,244,1) 0%, rgba(242,209,16,1) 100%);   
+}
+
+.btn:hover{
+    font-size: 35px;
+    color: black;
+    background: rgb(34,241,244);
+    background: linear-gradient(328deg, rgba(34,241,244,1) 0%, rgba(242,209,16,1) 100%);
+}
+
+
+.valor{
+    margin-top: -30px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 40px;
+    
+}
